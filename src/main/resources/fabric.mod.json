@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "autolavadupe",
+	"version": "${version}",
+	"name": "Auto Lava Dupe",
+	"description": "Automates the lava dupe exploit with a settings GUI, keybinds, and commands.",
+	"authors": [
+		"rjninja"
+	],
+	"contact": {
+		"homepage": "https://github.com/rjninja/AutoLavaDupe",
+		"sources": "https://github.com/rjninja/AutoLavaDupe"
+	},
+	"license": "MIT",
+	"icon": "assets/autolavadupe/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"net.rjninja.AutoLavaDupe"
+		],
+		"client": [
+			"net.rjninja.client.AutoLavaDupeClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
